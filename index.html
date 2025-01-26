@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <header>
+         <div class="header-container">
+         <div class="header-link">
+            <a href="index.html">Home</a>
+            <a href="/maps.html">Weather Maps</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" id="input" placeholder="Enter Your Location" required>
+            <button onclick="diplaybtn()" class="bx bx-shearch">Search</button>
+        </div>
+        </div>
+         
+    </header>
+    <section class="box">
+        <video src="/4.mp4" autoplay muted loop></video>
+    </section>
+        <div class="tim2">
+        <div class="date-container">  
+                <div class="location-container" id="iconp">
+                    <div class="city" id="city"><i class="bx bxs-map-pin"></i><span id="city-name"></span></div> 
+                    <div class="country" id="country">Morocco</div>
+                    <img src="" alt="Weather Icon" class="w-icon">
+                    <div class="temp" id="tmp">25.8°C</div>
+                </div>
+            </div>
+            
+            <div class="col-3">
+                <div class="col">
+                    <img src="/icons/weather-wind-sun.svg" >
+                    <div>
+                        <p class="humidty" id="humidty">50 %</p>
+                        <p class="pp" >Humidty</p>
+                    </div>
+                </div>
+                <div class="col" >
+                    <img src="/icons/wind-2.svg" >
+                    <div>
+                        <p class="wind" id="wind">15 km</p>
+                        <p class="pp">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+   <div class="future-forecast">
+    <div class="today" id="current-temp">
+        <img src="/icons/cloudy-day-1.svg" alt="Weather Icon" class="w-icon">
+        <div class="other">
+            <div class="day">Today</div>
+            <div class="temp">Night - 25.8°C</div>
+            <div class="temp">Day - 35.4°C</div>
+        </div>
+    </div>
+    <div class="weather-forecast">
+    </div>
+</div>
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="maps.html">Weather Maps</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2025 | Developed by <strong>Hbouazzaoui</strong></p>
+            <p>Stay updated with the latest weather updates and forecasts.</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<script src="js/Script.js"></script>
+</html>
