@@ -166,7 +166,6 @@ header {
 }
 .location-container i{
     color: #e62a09;
-   
 }
 
 .tim2 {
@@ -348,6 +347,7 @@ footer strong {
     color: #ffcc00; 
 }
 
+
 @media (max-width: 730px) {
     .footer-links a {
         display: block;
@@ -380,6 +380,9 @@ footer strong {
         font-size: 33px;
         flex-direction: column;
     }
+    .weather-forecast{
+        flex-direction: column;
+    }
 
     .date-container .time {
         font-size: 24px;
@@ -391,29 +394,90 @@ footer strong {
     .today{
         text-align: center;
     }
+   
 }
-
-
 @media (max-width: 730px) {
+    .tim2{
+        max-width: 300px;
+    }
+    .col-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .col {
+        width: 100%;
+        max-width:200px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .col img {
+        max-width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .humidty,
+    .wind {
+        font-size: 16px;
+    }
+
+    .pp {
+        font-size: 12px;
+        color: #6c757d;
+    }
+}
+@media (max-width: 730px) {
+    header {
+        padding: 10px 0;
+    }
+
     .header-container {
         flex-direction: column;
         text-align: center;
+        gap: 15px;
     }
 
     .header-link {
-        gap: 10px;
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 10px;
+    }
+
+    .header-link a {
+        font-size: 14px;
+        padding: 8px 12px;
+        display: block;
     }
 
     .search-box {
-        display: block;;
         width: 100%;
-        margin-top: 10px;
-        justify-content:right;
-        margin-right: 333px;
+        max-width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
-    .search-box input{
+
+    .search-box input {
+        width: 100%;
         font-size: 14px;
+        padding: 8px;
+    }
+
+    .search-box button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .search-box i {
+        font-size: 18px;
     }
 }
