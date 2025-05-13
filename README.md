@@ -21,9 +21,10 @@
 - **OpenWeatherMap API** – For fetching real-time weather data
 - **Font Awesome / Icons** – Weather icons and UI enhancements
 
-## 📷 Screenshot
-
 Below is a preview of the project:
+
+## 🖥️ Desktop View
+
 ## Screenshot Page Home :
  ![image](https://github.com/user-attachments/assets/7a7c8389-d8a0-4ffb-8390-1c787cb36189)
 
@@ -35,9 +36,25 @@ Below is a preview of the project:
 ![image](https://github.com/user-attachments/assets/32f21db1-e5f7-42d0-a013-153774ad5bc1)
 
 
+## 📱 Mobile View
+
+![image](https://github.com/user-attachments/assets/26d42b5c-a025-477f-9311-1fa0fe5f677b)
+
+
+> WeatherConnect on mobile: Optimized layout with accessible information and easy navigation.
+
+---
+
 ## 📁 How to Use
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/weatherconnect.git
    cd weatherconnect
+
+   
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Enter a city name and click **Search**
